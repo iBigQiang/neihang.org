@@ -1,6 +1,6 @@
 {
-  "buildCommand": "turbo build",
+  "buildCommand": "pnpm build:all && pnpm build:app",
   "installCommand": "pnpm install",
   "framework": "nextjs",
-  "outputDirectory": "app/.next"
+  "outputDirectory": ".next"
 }
